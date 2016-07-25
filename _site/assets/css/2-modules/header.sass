@@ -1,0 +1,30 @@
+.header
+  display: table
+  background-color: $gunmetal
+  color: white
+  position: fixed
+  width: 180px
+  height: 100%
+
+  .logo
+    +hide-text
+    display: table-cell
+    align-self: top
+    max-width: 180px
+    position: fixed
+    background: url(/assets/images/logo.svg)
+
+  .nav
+    display: table-cell
+    vertical-align: middle
+    font-family: 'Raleway', sans-serif
+    font-size: 14px
+
+    ul
+      list-style: none
+
+    li
+      margin-bottom: 8px
+
+      &:last-child
+        margin-bottom: 0px

@@ -363,3 +363,39 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */ }
+
+.header {
+  display: table;
+  background-color: #292F36;
+  color: white;
+  position: fixed;
+  width: 180px;
+  height: 100%; }
+  .header .logo {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    display: table-cell;
+    -ms-flex-item-align: top;
+        align-self: top;
+    max-width: 170px;
+    position: fixed;
+    height: 125px;
+    margin: 5px 0 0 5px;
+    background-image: url(/assets/images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .header .nav {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: justify; }
+    .header .nav ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 25px; }
+    .header .nav li {
+      margin-bottom: 8px; }
+      .header .nav li:last-child {
+        margin-bottom: 0px; }
