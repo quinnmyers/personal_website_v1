@@ -1,31 +1,34 @@
-.header
-  display: table
+.home-wrap .header
   background-color: $gunmetal
   color: white
-  position: fixed
   width: 180px
-  height: 100%
+  .header-position
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    width: 180px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
 
   .logo
     +hide-text
-    display: table-cell
-    align-self: top
-    max-width: 170px
-    position: fixed
-    height: 125px
-    margin: 5px 0 0 5px
     background:
       image: url(/assets/images/logo.svg)
       repeat: no-repeat
       size: contain
+      position: center
+    height: 120px
+    padding: 0
+    margin: 0
 
-  .nav
-    display: table-cell
-    vertical-align: middle
-    font-family: 'Raleway', sans-serif
-    font-size: 14px
-    text-align: justify
+  .site-nav
+    margin-top: -120px
     ul
+      font-family: 'Raleway', sans-serif
+      font-size: 14px
+      text-align: left
       list-style: none
       padding: 0
       margin-left: 25px
