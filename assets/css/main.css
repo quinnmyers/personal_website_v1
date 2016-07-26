@@ -389,8 +389,8 @@ textarea {
     background-size: contain;
     background-position: center;
     height: 120px;
-    padding: 0;
-    margin: 0; }
+    padding: 10px 0 0 0;
+    margin: 0 5px 0 5px; }
   .home-wrap .header .site-nav {
     margin-top: -120px; }
     .home-wrap .header .site-nav ul {
@@ -404,8 +404,77 @@ textarea {
       margin-bottom: 8px; }
       .home-wrap .header .site-nav li:last-child {
         margin-bottom: 0px; }
+  .home-wrap .header .mobile-nav-button {
+    display: none; }
+
+.home-wrap .mobile-nav {
+  display: none; }
+  .home-wrap .mobile-nav ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-left: 25px;
+    padding: 0; }
+
+@media (max-width: 700px) {
+  .home-wrap .header {
+    width: auto;
+    display: block;
+    position: absoulte; }
+    .home-wrap .header .header-position {
+      position: relative; }
+    .home-wrap .header .logo {
+      margin-left: 10px;
+      height: 50px;
+      top: 0;
+      left: 0;
+      background-image: url(/assets/images/small-logo.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+    .home-wrap .header .site-nav,
+    .home-wrap .header .bottom {
+      display: none;
+      margin-top: 0px; }
+      .home-wrap .header .site-nav ul,
+      .home-wrap .header .bottom ul {
+        display: inline-block; }
+    .home-wrap .header .mobile-nav-button {
+      display: -ms-flexbox;
+      display: flex;
+      position: fixed;
+      margin-top: 11px;
+      margin-right: 15px;
+      right: 0;
+      top: 0;
+      float: right;
+      height: 25px;
+      width: 40px;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .home-wrap .header .mobile-nav-button .center-line {
+        display: -ms-flexbox;
+        display: flex;
+        height: 1px;
+        background: white; }
+  .home-wrap .mobile-nav.is-open {
+    display: block;
+    position: absolute;
+    background: #292F36;
+    color: white;
+    width: 100%;
+    padding-top: 45px; }
+    .home-wrap .mobile-nav.is-open li {
+      text-align: right;
+      margin-right: 20px;
+      margin-bottom: 10px; } }
 
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh; }
+  @media (max-width: 700px) {
+    .home-wrap {
+      display: block; } }

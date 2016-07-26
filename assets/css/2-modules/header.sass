@@ -1,39 +1,111 @@
-.home-wrap .header
-  background-color: $gunmetal
-  color: white
-  width: 180px
-  .header-position
-    position: fixed
-    top: 0
-    left: 0
-    bottom: 0
+.home-wrap
+  .header
+    background-color: $gunmetal
+    color: white
     width: 180px
-    display: flex
-    flex-direction: column
-    justify-content: space-between
+    .header-position
+      position: fixed
+      top: 0
+      left: 0
+      bottom: 0
+      width: 180px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
 
-  .logo
-    +hide-text
-    background:
-      image: url(/assets/images/logo.svg)
-      repeat: no-repeat
-      size: contain
-      position: center
-    height: 120px
-    padding: 0
-    margin: 0
+    .logo
+      +hide-text
+      background:
+        image: url(/assets/images/logo.svg)
+        repeat: no-repeat
+        size: contain
+        position: center
+      height: 120px
+      padding: 10px 0 0 0
+      margin: 0 5px 0 5px
 
-  .site-nav
-    margin-top: -120px
+    .site-nav
+      margin-top: -120px
+      ul
+        font-family: 'Raleway', sans-serif
+        font-size: 14px
+        text-align: left
+        list-style: none
+        padding: 0
+        margin-left: 25px
+      li
+        margin-bottom: 8px
+
+        &:last-child
+          margin-bottom: 0px
+
+
+    .mobile-nav-button
+      display: none
+
+  .mobile-nav
+    display: none
     ul
+      list-style: none
       font-family: 'Raleway', sans-serif
       font-size: 14px
-      text-align: left
-      list-style: none
-      padding: 0
       margin-left: 25px
-    li
-      margin-bottom: 8px
+      padding: 0
 
-      &:last-child
-        margin-bottom: 0px
+
+//switch this when i figure out my real size i want to switch into mobile with
+@media (max-width: 700px)
+  .home-wrap
+    .header
+      width: auto
+      display: block
+      position: absoulte
+      .header-position
+        position: relative
+
+
+      .logo
+        margin-left: 10px
+        height: 50px
+        top: 0
+        left: 0
+        background:
+          image: url(/assets/images/small-logo.svg)
+          repeat: no-repeat
+          size: contain
+          position: center
+      .site-nav,
+      .bottom
+        display: none
+        margin-top: 0px
+        ul
+          display: inline-block
+      .mobile-nav-button
+        display: flex
+        position: fixed
+        margin-top: 11px
+        margin-right: 15px
+        right: 0
+        top: 0
+        float: right
+        height: 25px
+        width: 40px
+        justify-content: space-between
+        flex-direction: column
+        .center-line
+          display: flex
+          height: 1px
+          background: white
+
+    .mobile-nav.is-open
+      display: block
+      position: absolute
+      background: $gunmetal
+      color: white
+      width: 100%
+      padding-top: 45px
+      ul
+      li
+        text-align: right
+        margin-right: 20px
+        margin-bottom: 10px
