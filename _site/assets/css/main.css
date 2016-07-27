@@ -478,3 +478,15 @@ textarea {
   @media (max-width: 700px) {
     .home-wrap {
       display: block; } }
+
+.content-sections {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: columns;
+      flex-direction: columns;
+  background: orange;
+  width: calc(100% - 180px);
+  height: 1000px; }
+  @media (max-width: 700px) {
+    .content-sections {
+      width: 100%; } }

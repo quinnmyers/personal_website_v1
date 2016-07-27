@@ -3,6 +3,7 @@
 
 @import "1-base/vars";
 
-@import "2-modules/header";
+@import "3-sections/header";
+@import "3-sections/jumbotron";
 
-@import "3-layouts/home";
+@import "4-layouts/main_layout";
