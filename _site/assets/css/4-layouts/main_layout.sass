@@ -2,16 +2,65 @@
   display: flex
   min-height: 100vh
 
-  //change this later when i know what dimension mobile is
-  @media (max-width: 700px)
+  //change this later when i know what dimension mobile is, check content-sections below
+  @media (max-width: 860px)
     display: block
 
 .content-sections
-  display: flex
-  flex-direction: columns
-  background: orange
+  flex: 1
   width: calc(100% - 180px)
-  height: 1000px
+  height: 3000px
 
-  @media (max-width: 700px)
+  //mobile width setting, check home-wrap above media query and header media query
+  @media (max-width: 860px)
     width: 100%
+
+  section
+    //padding here if you want
+    padding: 50px 0
+
+  .flex
+    display: flex
+    flex-direction: rows
+
+  .flex-center
+    justify-content: center
+
+  .flex-space
+    flex-direction: columns
+    justify-content: space-around
+
+  .order-bottom
+    order: -1
+
+
+
+//columns
+
+.col-1
+  display: flex
+  max-width: 320px
+  margin: 0 10px
+
+
+.col-2
+  max-width: 680px
+  margin: 0 10px
+  display: flex
+
+
+@media (max-width: 860px)
+  .content-sections .flex
+    display: block
+
+  .col-1
+    max-width: 100%
+
+  .col-2
+    max-width: 100%
+
+@media (max-width: 1030px)
+  .content-sections .flex-space
+    display: block
+    .col-1
+      max-width: 100%
