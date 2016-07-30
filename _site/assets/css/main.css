@@ -472,16 +472,21 @@ textarea {
       margin-bottom: 10px; } }
 
 .jumbotron {
+  height: 300px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
   width: 100%;
-  background-color: #4ECDC4; }
+  background-image: url("/assets/images/heroimage_300.png");
+  background-repeat: no-repeat;
+  background-color: #292F36; }
   .jumbotron .tagline {
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 36px;
@@ -495,56 +500,161 @@ textarea {
 .aboutme {
   display: -ms-flexbox;
   display: flex;
-  background-color: #F0EDEE;
+  background-color: #49C67D;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
-  .aboutme .headshot {
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 100%;
-    height: 180px;
-    width: 180px;
-    background-image: url("/assets/images/headshot_2.jpg");
-    background-position: 0px -60px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-overflow: hidden;
-    margin: auto; }
+      align-items: center;
+  text-align: center; }
   .aboutme .aboutme-copy {
+    padding: 30px 0;
     font-family: "Raleway", sans-serif;
-    color: #292F36; }
-  .aboutme .col-1:nth-child(2) {
-    max-width: 500px !important; }
+    color: white; }
+
+@media (max-width: 1100px) {
+  .title {
+    -ms-flex-item-align: center;
+        align-self: center; } }
 
 .skills {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: auto;
-  background: lightgrey; }
-  .skills .section-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: -50px;
-    margin-left: 20px;
-    text-decoration: underline; }
+  margin-top: 50px; }
   .skills .skill-container-1 {
     display: -ms-flexbox;
     display: flex;
-    width: auto;
-    height: auto;
-    background: lightskyblue; }
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    background: pink;
+    height: 300px;
+    width: 400px; }
+    .skills .skill-container-1 .skill-1 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 100%;
+      height: 125px; }
+      .skills .skill-container-1 .skill-1 .icon-1 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/html5_logo.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills .skill-container-1 .skill-1 .progress-1 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills .skill-container-1 .skill-1 .progress-1 .fill-1 {
+          width: 75%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+    .skills .skill-container-1 .skill-2 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px;
+      background-color: orange; }
+      .skills .skill-container-1 .skill-2 .icon-2 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/jquery.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills .skill-container-1 .skill-2 .progress-2 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills .skill-container-1 .skill-2 .progress-2 .fill-2 {
+          width: 75%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
   .skills .skill-container-2 {
     display: -ms-flexbox;
     display: flex;
-    width: auto;
-    height: auto;
-    background: lightskyblue; }
-  .skills .flex-space .col-1 {
-    max-width: 420px;
-    margin-bottom: 20px; }
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    background: pink;
+    height: 300px;
+    width: 400px; }
+    .skills .skill-container-2 .skill-3 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px;
+      background-color: blue; }
+      .skills .skill-container-2 .skill-3 .icon-3 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/css3_logo.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills .skill-container-2 .skill-3 .progress-3 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills .skill-container-2 .skill-3 .progress-3 .fill-3 {
+          width: 75%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+    .skills .skill-container-2 .skill-4 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px;
+      background-color: yellow; }
+      .skills .skill-container-2 .skill-4 .icon-4 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/bootstrap_logo.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills .skill-container-2 .skill-4 .progress-4 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills .skill-container-2 .skill-4 .progress-4 .fill-4 {
+          width: 75%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+
+@media (max-width: 1015px) {
+  .skill-container-2 {
+    margin-top: 50px; } }
 
 .home-wrap {
   display: -ms-flexbox;
@@ -562,8 +672,6 @@ textarea {
   @media (max-width: 860px) {
     .content-sections {
       width: 100%; } }
-  .content-sections section {
-    padding: 50px 0; }
   .content-sections .flex {
     display: -ms-flexbox;
     display: flex;
@@ -580,12 +688,18 @@ textarea {
   .content-sections .order-bottom {
     -ms-flex-order: -1;
         order: -1; }
+  .content-sections .flex-right {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse; }
 
 .col-1 {
   display: -ms-flexbox;
   display: flex;
-  max-width: 320px;
-  margin: 0 10px; }
+  max-width: 400px;
+  margin: 0 10px;
+  background: red;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .col-2 {
   max-width: 680px;
@@ -593,16 +707,24 @@ textarea {
   display: -ms-flexbox;
   display: flex; }
 
+.col-3 {
+  height: 100%;
+  max-width: 400px;
+  margin: 0 10px;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 250px; }
+
 @media (max-width: 860px) {
-  .content-sections .flex {
+  .content-sections .flex .flex-center .flex-space {
     display: block; }
   .col-1 {
     max-width: 100%; }
   .col-2 {
     max-width: 100%; } }
 
-@media (max-width: 1030px) {
-  .content-sections .flex-space {
+@media (max-width: 1015px) {
+  .content-sections .flex.flex-space {
     display: block; }
-    .content-sections .flex-space .col-1 {
-      max-width: 100%; } }
+  .col-1 {
+    max-width: 100%; } }
