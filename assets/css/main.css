@@ -498,8 +498,6 @@ textarea {
     height: 200px; } }
 
 .aboutme {
-  display: -ms-flexbox;
-  display: flex;
   background-color: #49C67D;
   -ms-flex-pack: center;
       justify-content: center;
@@ -507,8 +505,12 @@ textarea {
       align-items: center;
   text-align: center; }
   .aboutme .aboutme-copy {
+    margin-top: -40px;
+    line-height: 30px;
     padding: 30px 0;
     font-family: "Raleway", sans-serif;
+    color: white; }
+  .aboutme .col-title {
     color: white; }
 
 @media (max-width: 1100px) {
@@ -525,7 +527,6 @@ textarea {
         flex-direction: column;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    background: pink;
     height: 300px;
     width: 400px; }
     .skills .skill-container-1 .skill-1 {
@@ -535,6 +536,11 @@ textarea {
           flex-direction: row;
       width: 100%;
       height: 125px; }
+      .skills .skill-container-1 .skill-1 .progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
       .skills .skill-container-1 .skill-1 .icon-1 {
         height: 100%;
         width: 125px;
@@ -552,7 +558,7 @@ textarea {
         width: 250px;
         border: 1px solid #2D6290; }
         .skills .skill-container-1 .skill-1 .progress-1 .fill-1 {
-          width: 75%;
+          width: 90%;
           height: 100%;
           background-color: #2D6290;
           border-top-right: 2px;
@@ -561,8 +567,12 @@ textarea {
       display: -ms-flexbox;
       display: flex;
       width: 100%;
-      height: 125px;
-      background-color: orange; }
+      height: 125px; }
+      .skills .skill-container-1 .skill-2 .progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
       .skills .skill-container-1 .skill-2 .icon-2 {
         height: 100%;
         width: 125px;
@@ -580,7 +590,7 @@ textarea {
         width: 250px;
         border: 1px solid #2D6290; }
         .skills .skill-container-1 .skill-2 .progress-2 .fill-2 {
-          width: 75%;
+          width: 60%;
           height: 100%;
           background-color: #2D6290;
           border-top-right: 2px;
@@ -592,15 +602,18 @@ textarea {
         flex-direction: column;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    background: pink;
     height: 300px;
     width: 400px; }
     .skills .skill-container-2 .skill-3 {
       display: -ms-flexbox;
       display: flex;
       width: 100%;
-      height: 125px;
-      background-color: blue; }
+      height: 125px; }
+      .skills .skill-container-2 .skill-3 .progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
       .skills .skill-container-2 .skill-3 .icon-3 {
         height: 100%;
         width: 125px;
@@ -618,7 +631,7 @@ textarea {
         width: 250px;
         border: 1px solid #2D6290; }
         .skills .skill-container-2 .skill-3 .progress-3 .fill-3 {
-          width: 75%;
+          width: 80%;
           height: 100%;
           background-color: #2D6290;
           border-top-right: 2px;
@@ -627,8 +640,12 @@ textarea {
       display: -ms-flexbox;
       display: flex;
       width: 100%;
-      height: 125px;
-      background-color: yellow; }
+      height: 125px; }
+      .skills .skill-container-2 .skill-4 .progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
       .skills .skill-container-2 .skill-4 .icon-4 {
         height: 100%;
         width: 125px;
@@ -646,7 +663,7 @@ textarea {
         width: 250px;
         border: 1px solid #2D6290; }
         .skills .skill-container-2 .skill-4 .progress-4 .fill-4 {
-          width: 75%;
+          width: 80%;
           height: 100%;
           background-color: #2D6290;
           border-top-right: 2px;
@@ -654,6 +671,161 @@ textarea {
 
 @media (max-width: 1015px) {
   .skill-container-2 {
+    margin-top: 50px; } }
+
+.skills-nt {
+  margin-top: 150px; }
+  .skills-nt .nt-skill-container-1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    height: 300px;
+    width: 400px; }
+    .skills-nt .nt-skill-container-1 .nt-skill-1 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 100%;
+      height: 125px; }
+      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 300px; }
+      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-icon-1 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/microphone.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-1 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-1 .nt-fill-1 {
+          width: 100%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+    .skills-nt .nt-skill-container-1 .nt-skill-2 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px; }
+      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
+      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-icon-2 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/folder.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-2 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-2 .nt-fill-2 {
+          width: 80%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+  .skills-nt .nt-skill-container-2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    height: 300px;
+    width: 400px; }
+    .skills-nt .nt-skill-container-2 .nt-skill-3 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px; }
+      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 300px; }
+      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-icon-3 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/clockface.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-3 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-3 .nt-fill-3 {
+          width: 100%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+    .skills-nt .nt-skill-container-2 .nt-skill-4 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 125px; }
+      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-name {
+        font-family: "Raleway", sans-serif;
+        margin-top: -10px;
+        height: 10px;
+        width: 100px; }
+      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-icon-4 {
+        height: 100%;
+        width: 125px;
+        border-radius: 100%;
+        background-image: url(/assets/images/paintbrush.svg);
+        background-color: #292F36;
+        background-position: center;
+        background-repeat: no-repeat; }
+      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-4 {
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin: auto;
+        border-radius: 2px;
+        height: 10px;
+        width: 250px;
+        border: 1px solid #2D6290; }
+        .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-4 .nt-fill-4 {
+          width: 90%;
+          height: 100%;
+          background-color: #2D6290;
+          border-top-right: 2px;
+          border-bottom-right: 2px; }
+
+@media (max-width: 1015px) {
+  .nt-skill-container-2 {
     margin-top: 50px; } }
 
 .home-wrap {
@@ -697,7 +869,6 @@ textarea {
   display: flex;
   max-width: 400px;
   margin: 0 10px;
-  background: red;
   -ms-flex-pack: center;
       justify-content: center; }
 
@@ -714,6 +885,15 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   margin-right: 250px; }
+
+.col-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  margin-top: -40px; }
 
 @media (max-width: 860px) {
   .content-sections .flex .flex-center .flex-space {
