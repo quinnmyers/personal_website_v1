@@ -1,0 +1,80 @@
+.contact
+  background: $gunmetal
+  margin-top: 75px
+  color: white
+  .contact-form
+    margin: auto
+    margin-bottom: 75px
+    color: white
+    background: $gunmetal
+    .form-container
+      display: flex
+      .name,
+      .email,
+      .subject,
+      .message
+        p
+          font-family: $mainfont
+          font-size: 14px
+          text-decoration: underline
+          padding: 0
+          margin: 0
+          margin-bottom: 5px
+        input
+          margin-bottom: 10px
+          font-family: $mainfont
+        textarea
+          font-family: $mainfont
+      .name,
+      .email,
+      .subject
+        .yourname,
+        .youremail,
+        .yoursubject
+          width: 200px
+          height: 30px
+          border: 1px solid $gunmetal
+          border-radius: 3px
+      .message
+        .yourmessage
+          width: 420px
+          height: 150px
+          border: 1px solid $gunmetal
+          border-radius: 3px
+          text-align: top
+          resize: none
+      .button
+        .submitbutton
+          width: 100px
+          color: white
+          height: 35px
+          font-family: $mainfont
+          float: right
+          border-radius: 3px
+          background: $gunmetal
+          border: 1px solid white
+
+        .submitbutton:hover
+          background-color: white
+          color: $emerald
+          border: 1px solid $emerald
+
+  .contact-text
+    height: 420px
+    .contact-copy
+      font-family: $mainfont
+      background: purple
+      color: white
+      display: flex
+      align-self: center
+    .headshot
+      display: flex
+      align-self: center
+      margin: auto
+      height: 150px
+      width: 150px
+      border-radius: 100%
+      background:
+        image: url(/assets/images/headshot_2.jpg)
+        repeat: no-repeat
+        size: contain

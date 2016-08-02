@@ -528,7 +528,8 @@ textarea {
     -ms-flex-pack: justify;
         justify-content: space-between;
     height: 300px;
-    width: 400px; }
+    width: 400px;
+    margin: auto; }
     .skills .skill-container-1 .skill-1 {
       display: -ms-flexbox;
       display: flex;
@@ -603,7 +604,8 @@ textarea {
     -ms-flex-pack: justify;
         justify-content: space-between;
     height: 300px;
-    width: 400px; }
+    width: 400px;
+    margin: auto; }
     .skills .skill-container-2 .skill-3 {
       display: -ms-flexbox;
       display: flex;
@@ -671,7 +673,7 @@ textarea {
 
 @media (max-width: 1015px) {
   .skill-container-2 {
-    margin-top: 50px; } }
+    margin-top: 50px !important; } }
 
 .skills-nt {
   margin-top: 150px; }
@@ -828,6 +830,436 @@ textarea {
   .nt-skill-container-2 {
     margin-top: 50px; } }
 
+.nt-test {
+  padding-top: 100px; }
+  .nt-test .nt-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    margin: auto; }
+    .nt-test .nt-container .ntskill1 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 100%;
+      height: 75px; }
+      .nt-test .nt-container .ntskill1 .nticon1 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 75px;
+        border-radius: 100%;
+        background-color: #292F36;
+        background-image: url(/assets/images/microphone_s.svg);
+        background-repeat: no-repeat;
+        background-position: center; }
+      .nt-test .nt-container .ntskill1 .ntprog1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        height: 10px;
+        width: 60%;
+        margin-left: 15px;
+        border-radius: 2px;
+        border: 1px solid #2D6290; }
+        .nt-test .nt-container .ntskill1 .ntprog1 .progfill1 {
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          width: 50%;
+          background: #2D6290;
+          border-top-left-radius: 1px;
+          border-bottom-left-radius: 1px; }
+    .nt-test .nt-container .ntskill2 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 75px; }
+      .nt-test .nt-container .ntskill2 .nticon2 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 75px;
+        border-radius: 100%;
+        background-color: #292F36;
+        background-image: url(/assets/images/clock_s.svg);
+        background-repeat: no-repeat;
+        background-position: center; }
+      .nt-test .nt-container .ntskill2 .ntprog2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        height: 10px;
+        width: 60%;
+        margin-left: 15px;
+        border-radius: 2px;
+        border: 1px solid #2D6290; }
+        .nt-test .nt-container .ntskill2 .ntprog2 .progfill2 {
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          width: 50%;
+          background: #2D6290;
+          border-top-left-radius: 1px;
+          border-bottom-left-radius: 1px; }
+    .nt-test .nt-container .ntskill3 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 75px; }
+      .nt-test .nt-container .ntskill3 .nticon3 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 75px;
+        border-radius: 100%;
+        background-color: #292F36;
+        background-image: url(/assets/images/folder_s.svg);
+        background-repeat: no-repeat;
+        background-position: center; }
+      .nt-test .nt-container .ntskill3 .ntprog3 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        height: 10px;
+        width: 60%;
+        margin-left: 15px;
+        border-radius: 2px;
+        border: 1px solid #2D6290; }
+        .nt-test .nt-container .ntskill3 .ntprog3 .progfill3 {
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          width: 50%;
+          background: #2D6290;
+          border-top-left-radius: 1px;
+          border-bottom-left-radius: 1px; }
+    .nt-test .nt-container .ntskill4 {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      height: 75px; }
+      .nt-test .nt-container .ntskill4 .nticon4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 75px;
+        border-radius: 100%;
+        background-color: #292F36;
+        background-image: url(/assets/images/paintbrush_s.svg);
+        background-repeat: no-repeat;
+        background-position: center; }
+      .nt-test .nt-container .ntskill4 .ntprog4 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        height: 10px;
+        width: 60%;
+        margin-left: 15px;
+        border-radius: 2px;
+        border: 1px solid #2D6290; }
+        .nt-test .nt-container .ntskill4 .ntprog4 .progfill4 {
+          display: -ms-flexbox;
+          display: flex;
+          height: 100%;
+          width: 50%;
+          background: #2D6290;
+          border-top-left-radius: 1px;
+          border-bottom-left-radius: 1px; }
+  .nt-test .nt-text {
+    color: #292F36;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif; }
+
+.portfolio {
+  margin-top: 75px;
+  background: #91CB3E; }
+  .portfolio .portfolio1 {
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: red;
+      background-image: url("https://placehold.it/400x300");
+      background-repeat: no-repeat; }
+    .portfolio .portfolio1 .thumbnails1 {
+      height: 100px;
+      width: 100%;
+      background-color: lightskyblue;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+  .portfolio .desc-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    background: yellow; }
+    .portfolio .desc-container .desc {
+      display: -ms-flexbox;
+      display: flex;
+      height: auto;
+      background: blue; }
+
+@media (max-width: 860px) {
+  .portfolio1 {
+    margin-bottom: 20px !important; } }
+
+.testimonials {
+  margin-top: 50px; }
+  .testimonials .person1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: auto;
+    text-align: center;
+    background: pink;
+    width: 300px;
+    height: 300px; }
+    .testimonials .person1 .headshot {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      border-radius: 100%;
+      background-image: url("/assets/images/jim_headshot.png");
+      background-size: contain;
+      width: 125px;
+      height: 125px; }
+    .testimonials .person1 .title {
+      diplay: flex;
+      margin-top: 10px;
+      width: auto;
+      height: auto;
+      background: red; }
+      .testimonials .person1 .title h4 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px; }
+      .testimonials .person1 .title h5 {
+        font-family: "Raleway", sans-serif;
+        line-height: 20px;
+        margin: 0;
+        padding: 0; }
+  .testimonials .testimonial1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: columns;
+        flex-direction: columns;
+    background: pink;
+    height: 300px; }
+    .testimonials .testimonial1 .text {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      font-family: "Raleway", sans-serif;
+      width: 100%;
+      height: auto;
+      background: yellow; }
+  .testimonials .person2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: auto;
+    text-align: center;
+    background: pink;
+    width: 300px;
+    height: 300px; }
+    .testimonials .person2 .headshot {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      border-radius: 100%;
+      background-image: url("/assets/images/jim_headshot.png");
+      background-size: contain;
+      width: 125px;
+      height: 125px; }
+    .testimonials .person2 .title {
+      diplay: flex;
+      margin-top: 10px;
+      width: auto;
+      height: auto;
+      background: red; }
+      .testimonials .person2 .title h4 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px; }
+      .testimonials .person2 .title h5 {
+        font-family: "Raleway", sans-serif;
+        line-height: 20px;
+        margin: 0;
+        padding: 0; }
+  .testimonials .testimonial2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: columns;
+        flex-direction: columns;
+    background: pink;
+    height: 300px; }
+    .testimonials .testimonial2 .text {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      font-family: "Raleway", sans-serif;
+      width: 100%;
+      height: auto;
+      background: yellow; }
+
+@media (max-width: 940px) {
+  .testimonials .testimonial1 {
+    height: auto;
+    margin-top: -50px !important; }
+    .testimonials .testimonial1 .text {
+      -ms-flex-item-align: start;
+          align-self: flex-start; } }
+
+.contact {
+  background: #292F36;
+  margin-top: 75px;
+  color: white; }
+  .contact .contact-form {
+    margin: auto;
+    margin-bottom: 75px;
+    color: white;
+    background: #292F36; }
+    .contact .contact-form .form-container {
+      display: -ms-flexbox;
+      display: flex; }
+      .contact .contact-form .form-container .name p,
+      .contact .contact-form .form-container .email p,
+      .contact .contact-form .form-container .subject p,
+      .contact .contact-form .form-container .message p {
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        text-decoration: underline;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 5px; }
+      .contact .contact-form .form-container .name input,
+      .contact .contact-form .form-container .email input,
+      .contact .contact-form .form-container .subject input,
+      .contact .contact-form .form-container .message input {
+        margin-bottom: 10px;
+        font-family: "Raleway", sans-serif; }
+      .contact .contact-form .form-container .name textarea,
+      .contact .contact-form .form-container .email textarea,
+      .contact .contact-form .form-container .subject textarea,
+      .contact .contact-form .form-container .message textarea {
+        font-family: "Raleway", sans-serif; }
+      .contact .contact-form .form-container .name .yourname,
+      .contact .contact-form .form-container .name .youremail,
+      .contact .contact-form .form-container .name .yoursubject,
+      .contact .contact-form .form-container .email .yourname,
+      .contact .contact-form .form-container .email .youremail,
+      .contact .contact-form .form-container .email .yoursubject,
+      .contact .contact-form .form-container .subject .yourname,
+      .contact .contact-form .form-container .subject .youremail,
+      .contact .contact-form .form-container .subject .yoursubject {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #292F36;
+        border-radius: 3px; }
+      .contact .contact-form .form-container .message .yourmessage {
+        width: 420px;
+        height: 150px;
+        border: 1px solid #292F36;
+        border-radius: 3px;
+        text-align: top;
+        resize: none; }
+      .contact .contact-form .form-container .button .submitbutton {
+        width: 100px;
+        color: white;
+        height: 35px;
+        font-family: "Raleway", sans-serif;
+        float: right;
+        border-radius: 3px;
+        background: #292F36;
+        border: 1px solid white; }
+      .contact .contact-form .form-container .button .submitbutton:hover {
+        background-color: #49C67D;
+        color: white;
+        border: 1px solid white; }
+  .contact .contact-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .contact .contact-text .contact-copy {
+      display: -ms-flexbox;
+      display: flex;
+      font-family: "Raleway", sans-serif;
+      color: white; }
+    .contact .contact-text .headshot {
+      margin-top: -100px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-image: url(/assets/images/headshot_2.jpg);
+      background-repeat: no-repeat;
+      background-size: contain; }
+
+@media (max-width: 940px) {
+  .contact .contact-text .headshot {
+    margin-top: 0px !important; }
+  .contact .contact-form {
+    width: 100%; }
+    .contact .contact-form .form-container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      width: 100%; }
+      .contact .contact-form .form-container .name .yourname,
+      .contact .contact-form .form-container .name .youremail,
+      .contact .contact-form .form-container .name .yoursubject,
+      .contact .contact-form .form-container .email .yourname,
+      .contact .contact-form .form-container .email .youremail,
+      .contact .contact-form .form-container .email .yoursubject,
+      .contact .contact-form .form-container .subject .yourname,
+      .contact .contact-form .form-container .subject .youremail,
+      .contact .contact-form .form-container .subject .yoursubject {
+        display: -ms-flexbox;
+        display: flex;
+        width: 320px; }
+      .contact .contact-form .form-container .message .yourmessage {
+        width: 320px; }
+      .contact .contact-form .form-container .button .submitbutton {
+        margin-right: 2px; }
+      .contact .contact-form .form-container .button .submitbutton:hover {
+        background-color: white;
+        color: #49C67D;
+        border: 1px solid #49C67D; } }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -840,7 +1272,7 @@ textarea {
   -ms-flex: 1;
       flex: 1;
   width: calc(100% - 180px);
-  height: 3000px; }
+  height: 6000px; }
   @media (max-width: 860px) {
     .content-sections {
       width: 100%; } }
@@ -857,12 +1289,14 @@ textarea {
         flex-direction: columns;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
+  .content-sections .flex-left {
+    -ms-flex-direction: columns;
+        flex-direction: columns;
+    -ms-flex-pack: center;
+        justify-content: center; }
   .content-sections .order-bottom {
     -ms-flex-order: -1;
         order: -1; }
-  .content-sections .flex-right {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse; }
 
 .col-1 {
   display: -ms-flexbox;
@@ -886,6 +1320,18 @@ textarea {
   display: flex;
   margin-right: 250px; }
 
+.col-4 {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 250px;
+  margin: 0 10px; }
+
+.col-5 {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  margin: 0 10px; }
+
 .col-title {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -896,9 +1342,10 @@ textarea {
   margin-top: -40px; }
 
 @media (max-width: 860px) {
-  .content-sections .flex .flex-center .flex-space {
+  .content-sections .flex.flex-center {
     display: block; }
   .col-1 {
+    display: block;
     max-width: 100%; }
   .col-2 {
     max-width: 100%; } }
@@ -907,4 +1354,14 @@ textarea {
   .content-sections .flex.flex-space {
     display: block; }
   .col-1 {
+    max-width: 100%;
+    display: block; } }
+
+@media (max-width: 940px) {
+  .content-sections .flex.flex-left {
+    display: block; }
+  .col-4 {
+    max-width: 100%; }
+  .col-5 {
+    margin-top: 25px;
     max-width: 100%; } }

@@ -9,7 +9,7 @@
 .content-sections
   flex: 1
   width: calc(100% - 180px)
-  height: 3000px
+  height: 6000px
 
   //mobile width setting, check home-wrap above media query and header media query
   @media (max-width: 860px)
@@ -30,11 +30,15 @@
     flex-direction: columns
     justify-content: space-around
 
+  .flex-left
+    flex-direction: columns
+    justify-content: center
+
+
   .order-bottom
     order: -1
 
-  .flex-right
-    flex-direction: row-reverse
+
 
 
 
@@ -61,6 +65,18 @@
   display: flex
   margin-right: 250px
 
+.col-4
+  display: flex
+  max-width: 250px
+  background: pink
+  margin: 0 10px
+
+.col-5
+  display: flex
+  max-width: 500px
+  margin: 0 10px
+  background: lightskyblue
+
 .col-title
   font-family: $mainfont
   font-size: 18px
@@ -70,11 +86,13 @@
   margin-top: -40px
 
 
+
 @media (max-width: 860px)
-  .content-sections .flex .flex-center .flex-space
+  .content-sections .flex.flex-center
     display: block
 
   .col-1
+    display: block
     max-width: 100%
 
   .col-2
@@ -84,4 +102,14 @@
   .content-sections .flex.flex-space
     display: block
   .col-1
+    max-width: 100%
+    display: block
+
+@media (max-width: 940px)
+  .content-sections .flex.flex-left
+    display: block
+  .col-4
+    max-width: 100%
+  .col-5
+    margin-top: 25px
     max-width: 100%
