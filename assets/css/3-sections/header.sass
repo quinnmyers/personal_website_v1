@@ -26,17 +26,41 @@
 
     .site-nav
       ul
+        a.is-active
+          color: $emerald !important
+          text-decoration: underline
+          text-decoration-color: $emerald
+        a,
+        a:visited
+          text-decoration: none
+
+
+    .site-nav
+      ul
+        li a
+          text-decoration: none
+        li a:visited
+          text-decoration: none
+
+    .site-nav
+      ul
         font-family: 'Raleway', sans-serif
         font-size: 14px
         text-align: left
         list-style: none
         padding: 0
         margin-left: 25px
+        a,
+        a:visited
+          text-decoration: none
+          color: white
       li
         margin-bottom: 8px
 
+
         &:last-child
           margin-bottom: 0px
+
 
 
     .mobile-nav-button
@@ -50,6 +74,18 @@
       font-size: 14px
       margin-left: 25px
       padding: 0
+      a.is-active
+        color: $emerald !important
+        text-decoration: underline
+        text-decoration-color: $emerald
+      a,
+      a:visited
+        text-decoration: none
+        color: white
+
+
+    .is-active
+      color: red
 
 
 //switch this when i figure out my real size i want to switch into mobile with,
@@ -98,7 +134,7 @@
           background: white
     .mobile-nav.is-open
       display: block
-      position: absolute
+      position: fixed
       background: $gunmetal
       color: white
       width: 100%
