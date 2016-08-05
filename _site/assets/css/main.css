@@ -602,7 +602,7 @@ textarea {
         height: 100%;
         width: 125px;
         border-radius: 100%;
-        background-image: url(/assets/images/html5_logo.svg);
+        background-image: url(/assets/images/HTML5_logo.svg);
         background-color: #292F36;
         background-position: center;
         background-repeat: no-repeat; }
@@ -1367,13 +1367,13 @@ textarea {
       .contact .social .social-icon-cont .twitter {
         width: 75px;
         height: 75px;
-        background-image: url("/assets/images/twitter_icon.svg");
+        background-image: url("/assets/images/Twitter_icon.svg");
         background-size: contain;
         background-repeat: no-repeat; }
       .contact .social .social-icon-cont .github {
         width: 75px;
         height: 75px;
-        background-image: url("/assets/images/github_icon.svg");
+        background-image: url("/assets/images/Github_icon.svg");
         background-size: contain;
         background-repeat: no-repeat; }
   .contact .contact-form {
