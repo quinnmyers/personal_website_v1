@@ -33,7 +33,10 @@
         a,
         a:visited
           text-decoration: none
-
+        a:hover
+          color: $emerald !important
+          text-decoration: underline
+        
 
     .site-nav
       ul
@@ -81,6 +84,7 @@
       a,
       a:visited
         text-decoration: none
+        color: white
 
 
     .is-active
@@ -133,7 +137,7 @@
           background: white
     .mobile-nav.is-open
       display: block
-      position: absolute
+      position: fixed
       background: $gunmetal
       color: white
       width: 100%

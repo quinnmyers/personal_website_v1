@@ -399,6 +399,9 @@ textarea {
   .home-wrap .header .site-nav ul a,
   .home-wrap .header .site-nav ul a:visited {
     text-decoration: none; }
+  .home-wrap .header .site-nav ul a:hover {
+    color: #49C67D !important;
+    text-decoration: underline; }
   .home-wrap .header .site-nav ul li a {
     text-decoration: none; }
   .home-wrap .header .site-nav ul li a:visited {
@@ -550,6 +553,7 @@ textarea {
   .aboutme .aboutme-copy {
     margin-top: -30px;
     line-height: 30px;
+    margin-bottom: 15px;
     font-family: "Raleway", sans-serif;
     color: white; }
   .aboutme .col-title {
@@ -699,12 +703,12 @@ textarea {
         font-family: "Raleway", sans-serif;
         margin-top: -10px;
         height: 10px;
-        width: 100px; }
+        width: 150px; }
       .skills .skill-container-2 .skill-4 .icon-4 {
         height: 100%;
         width: 125px;
         border-radius: 100%;
-        background-image: url(/assets/images/bootstrap_logo.svg);
+        background-image: url(/assets/images/responsive_icon.svg);
         background-color: #292F36;
         background-position: center;
         background-repeat: no-repeat; }
@@ -726,161 +730,6 @@ textarea {
 @media (max-width: 1015px) {
   .skill-container-2 {
     margin-top: 50px !important; } }
-
-.skills-nt {
-  margin-top: 150px; }
-  .skills-nt .nt-skill-container-1 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    height: 300px;
-    width: 400px; }
-    .skills-nt .nt-skill-container-1 .nt-skill-1 {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: row;
-          flex-direction: row;
-      width: 100%;
-      height: 125px; }
-      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-name {
-        font-family: "Raleway", sans-serif;
-        margin-top: -10px;
-        height: 10px;
-        width: 300px; }
-      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-icon-1 {
-        height: 100%;
-        width: 125px;
-        border-radius: 100%;
-        background-image: url(/assets/images/microphone.svg);
-        background-color: #292F36;
-        background-position: center;
-        background-repeat: no-repeat; }
-      .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-1 {
-        -ms-flex-item-align: center;
-            align-self: center;
-        margin: auto;
-        border-radius: 2px;
-        height: 10px;
-        width: 250px;
-        border: 1px solid #2D6290; }
-        .skills-nt .nt-skill-container-1 .nt-skill-1 .nt-progress-1 .nt-fill-1 {
-          width: 100%;
-          height: 100%;
-          background-color: #2D6290;
-          border-top-right: 2px;
-          border-bottom-right: 2px; }
-    .skills-nt .nt-skill-container-1 .nt-skill-2 {
-      display: -ms-flexbox;
-      display: flex;
-      width: 100%;
-      height: 125px; }
-      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-name {
-        font-family: "Raleway", sans-serif;
-        margin-top: -10px;
-        height: 10px;
-        width: 100px; }
-      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-icon-2 {
-        height: 100%;
-        width: 125px;
-        border-radius: 100%;
-        background-image: url(/assets/images/folder.svg);
-        background-color: #292F36;
-        background-position: center;
-        background-repeat: no-repeat; }
-      .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-2 {
-        -ms-flex-item-align: center;
-            align-self: center;
-        margin: auto;
-        border-radius: 2px;
-        height: 10px;
-        width: 250px;
-        border: 1px solid #2D6290; }
-        .skills-nt .nt-skill-container-1 .nt-skill-2 .nt-progress-2 .nt-fill-2 {
-          width: 80%;
-          height: 100%;
-          background-color: #2D6290;
-          border-top-right: 2px;
-          border-bottom-right: 2px; }
-  .skills-nt .nt-skill-container-2 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    height: 300px;
-    width: 400px; }
-    .skills-nt .nt-skill-container-2 .nt-skill-3 {
-      display: -ms-flexbox;
-      display: flex;
-      width: 100%;
-      height: 125px; }
-      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-name {
-        font-family: "Raleway", sans-serif;
-        margin-top: -10px;
-        height: 10px;
-        width: 300px; }
-      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-icon-3 {
-        height: 100%;
-        width: 125px;
-        border-radius: 100%;
-        background-image: url(/assets/images/clockface.svg);
-        background-color: #292F36;
-        background-position: center;
-        background-repeat: no-repeat; }
-      .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-3 {
-        -ms-flex-item-align: center;
-            align-self: center;
-        margin: auto;
-        border-radius: 2px;
-        height: 10px;
-        width: 250px;
-        border: 1px solid #2D6290; }
-        .skills-nt .nt-skill-container-2 .nt-skill-3 .nt-progress-3 .nt-fill-3 {
-          width: 100%;
-          height: 100%;
-          background-color: #2D6290;
-          border-top-right: 2px;
-          border-bottom-right: 2px; }
-    .skills-nt .nt-skill-container-2 .nt-skill-4 {
-      display: -ms-flexbox;
-      display: flex;
-      width: 100%;
-      height: 125px; }
-      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-name {
-        font-family: "Raleway", sans-serif;
-        margin-top: -10px;
-        height: 10px;
-        width: 100px; }
-      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-icon-4 {
-        height: 100%;
-        width: 125px;
-        border-radius: 100%;
-        background-image: url(/assets/images/paintbrush.svg);
-        background-color: #292F36;
-        background-position: center;
-        background-repeat: no-repeat; }
-      .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-4 {
-        -ms-flex-item-align: center;
-            align-self: center;
-        margin: auto;
-        border-radius: 2px;
-        height: 10px;
-        width: 250px;
-        border: 1px solid #2D6290; }
-        .skills-nt .nt-skill-container-2 .nt-skill-4 .nt-progress-4 .nt-fill-4 {
-          width: 90%;
-          height: 100%;
-          background-color: #2D6290;
-          border-top-right: 2px;
-          border-bottom-right: 2px; }
-
-@media (max-width: 1015px) {
-  .nt-skill-container-2 {
-    margin-top: 50px; } }
 
 .nt-test {
   padding-top: 70px; }
@@ -914,6 +763,8 @@ textarea {
       .nt-test .nt-container .ntskill1 .ntprog1 {
         display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
         -ms-flex-item-align: center;
             align-self: center;
         height: 10px;
@@ -925,10 +776,17 @@ textarea {
           display: -ms-flexbox;
           display: flex;
           height: 100%;
-          width: 50%;
+          width: 100%;
           background: #2D6290;
           border-top-left-radius: 1px;
           border-bottom-left-radius: 1px; }
+        .nt-test .nt-container .ntskill1 .ntprog1 .prog-name {
+          color: #292F36;
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          margin-top: -10px;
+          height: 10px;
+          width: 400px; }
     .nt-test .nt-container .ntskill2 {
       display: -ms-flexbox;
       display: flex;
@@ -947,6 +805,8 @@ textarea {
       .nt-test .nt-container .ntskill2 .ntprog2 {
         display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
         -ms-flex-item-align: center;
             align-self: center;
         height: 10px;
@@ -958,10 +818,17 @@ textarea {
           display: -ms-flexbox;
           display: flex;
           height: 100%;
-          width: 50%;
+          width: 95%;
           background: #2D6290;
           border-top-left-radius: 1px;
           border-bottom-left-radius: 1px; }
+        .nt-test .nt-container .ntskill2 .ntprog2 .prog-name {
+          color: #292F36;
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          margin-top: -10px;
+          height: 10px;
+          width: 400px; }
     .nt-test .nt-container .ntskill3 {
       display: -ms-flexbox;
       display: flex;
@@ -980,6 +847,8 @@ textarea {
       .nt-test .nt-container .ntskill3 .ntprog3 {
         display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
         -ms-flex-item-align: center;
             align-self: center;
         height: 10px;
@@ -991,10 +860,17 @@ textarea {
           display: -ms-flexbox;
           display: flex;
           height: 100%;
-          width: 50%;
+          width: 90%;
           background: #2D6290;
           border-top-left-radius: 1px;
           border-bottom-left-radius: 1px; }
+        .nt-test .nt-container .ntskill3 .ntprog3 .prog-name {
+          color: #292F36;
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          margin-top: -10px;
+          height: 10px;
+          width: 400px; }
     .nt-test .nt-container .ntskill4 {
       display: -ms-flexbox;
       display: flex;
@@ -1013,6 +889,8 @@ textarea {
       .nt-test .nt-container .ntskill4 .ntprog4 {
         display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
         -ms-flex-item-align: center;
             align-self: center;
         height: 10px;
@@ -1024,10 +902,17 @@ textarea {
           display: -ms-flexbox;
           display: flex;
           height: 100%;
-          width: 50%;
+          width: 85%;
           background: #2D6290;
           border-top-left-radius: 1px;
           border-bottom-left-radius: 1px; }
+        .nt-test .nt-container .ntskill4 .ntprog4 .prog-name {
+          color: #292F36;
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          margin-top: -10px;
+          height: 10px;
+          width: 400px; }
   .nt-test .nt-text {
     color: #292F36;
     line-height: 30px;
@@ -1036,37 +921,262 @@ textarea {
 
 .portfolio {
   margin-top: 75px;
-  background: #91CB3E; }
+  background: #bdc3c7; }
+  .portfolio .name {
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px; }
   .portfolio .portfolio1 {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
     width: 400px;
     height: 400px;
     margin: auto;
-    background: red;
-      background-image: url("https://placehold.it/400x300");
-      background-repeat: no-repeat; }
+    background-image: url("/assets/images/robert_site/home@2x.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
     .portfolio .portfolio1 .thumbnails1 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      padding-top: 10px;
       height: 100px;
       width: 100%;
-      background-color: lightskyblue;
+      background: #bdc3c7;
       -ms-flex-item-align: end;
           align-self: flex-end; }
+      .portfolio .portfolio1 .thumbnails1 .one_thumb1,
+      .portfolio .portfolio1 .thumbnails1 .one_thumb2,
+      .portfolio .portfolio1 .thumbnails1 .one_thumb3,
+      .portfolio .portfolio1 .thumbnails1 .one_thumb4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100px;
+        margin-left: 5px;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        transition-duration: 0.3s;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden; }
+        .portfolio .portfolio1 .thumbnails1 .one_thumb1:hover,
+        .portfolio .portfolio1 .thumbnails1 .one_thumb2:hover,
+        .portfolio .portfolio1 .thumbnails1 .one_thumb3:hover,
+        .portfolio .portfolio1 .thumbnails1 .one_thumb4:hover {
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1); }
+      .portfolio .portfolio1 .thumbnails1 .one_thumb1 {
+        background-image: url("/assets/images/robert_site/landing@2x.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio1 .thumbnails1 .one_thumb2 {
+        background-image: url("/assets/images/robert_site/bio.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio1 .thumbnails1 .one_thumb3 {
+        background-image: url("/assets/images/robert_site/contact.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio1 .thumbnails1 .one_thumb4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 86px;
+        width: 100px;
+        border: 1px solid #292F36; }
+        .portfolio .portfolio1 .thumbnails1 .one_thumb4:hover {
+          text-decoration: underline; }
+        .portfolio .portfolio1 .thumbnails1 .one_thumb4 .home-btn {
+          height: auto;
+          margin: auto; }
+          .portfolio .portfolio1 .thumbnails1 .one_thumb4 .home-btn p {
+            font-family: "Raleway", sans-serif;
+            letter-spacing: 1px;
+            margin: 0; }
+  .portfolio .portfolio2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url("/assets/images/siq_site/siqliquidhome.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .portfolio .portfolio2 .thumbnails2 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      height: 110px;
+      width: 100%;
+      background: #bdc3c7;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+      .portfolio .portfolio2 .thumbnails2 .two_thumb1,
+      .portfolio .portfolio2 .thumbnails2 .two_thumb2,
+      .portfolio .portfolio2 .thumbnails2 .two_thumb3,
+      .portfolio .portfolio2 .thumbnails2 .two_thumb4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100px;
+        margin-left: 7px;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        transition-duration: 0.3s;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden; }
+        .portfolio .portfolio2 .thumbnails2 .two_thumb1:hover,
+        .portfolio .portfolio2 .thumbnails2 .two_thumb2:hover,
+        .portfolio .portfolio2 .thumbnails2 .two_thumb3:hover,
+        .portfolio .portfolio2 .thumbnails2 .two_thumb4:hover {
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1); }
+      .portfolio .portfolio2 .thumbnails2 .two_thumb1 {
+        background-image: url("/assets/images/siq_site/siqwholesale.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio2 .thumbnails2 .two_thumb2 {
+        background-image: url("/assets/images/siq_site/siqabout.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio2 .thumbnails2 .two_thumb3 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 65px;
+        width: 100px;
+        border: 1px solid #292F36; }
+        .portfolio .portfolio2 .thumbnails2 .two_thumb3:hover {
+          text-decoration: underline; }
+        .portfolio .portfolio2 .thumbnails2 .two_thumb3 .home-btn {
+          height: auto;
+          margin: auto; }
+          .portfolio .portfolio2 .thumbnails2 .two_thumb3 .home-btn p {
+            font-family: "Raleway", sans-serif;
+            letter-spacing: 1px;
+            margin: 0; }
+  .portfolio .portfolio3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url("/assets/images/bh_site/bhhome.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .portfolio .portfolio3 .thumbnails3 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      height: 110px;
+      width: 100%;
+      background: #bdc3c7;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+      .portfolio .portfolio3 .thumbnails3 .three_thumb1,
+      .portfolio .portfolio3 .thumbnails3 .three_thumb2,
+      .portfolio .portfolio3 .thumbnails3 .three_thumb3,
+      .portfolio .portfolio3 .thumbnails3 .three_thumb4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100px;
+        margin-left: 5px;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        transition-duration: 0.3s;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden; }
+        .portfolio .portfolio3 .thumbnails3 .three_thumb1:hover,
+        .portfolio .portfolio3 .thumbnails3 .three_thumb2:hover,
+        .portfolio .portfolio3 .thumbnails3 .three_thumb3:hover,
+        .portfolio .portfolio3 .thumbnails3 .three_thumb4:hover {
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1); }
+      .portfolio .portfolio3 .thumbnails3 .three_thumb1 {
+        background-image: url("/assets/images/bh_site/bhfeatured.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio3 .thumbnails3 .three_thumb2 {
+        background-image: url("/assets/images/bh_site/bhabout.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio3 .thumbnails3 .three_thumb3 {
+        background-image: url("/assets/images/bh_site/bhcontact.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .portfolio .portfolio3 .thumbnails3 .three_thumb4 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 65px;
+        width: 100px;
+        border: 1px solid #292F36; }
+        .portfolio .portfolio3 .thumbnails3 .three_thumb4:hover {
+          text-decoration: underline; }
+        .portfolio .portfolio3 .thumbnails3 .three_thumb4 .home-btn {
+          height: auto;
+          margin: auto; }
+          .portfolio .portfolio3 .thumbnails3 .three_thumb4 .home-btn p {
+            font-family: "Raleway", sans-serif;
+            letter-spacing: 1px;
+            margin: 0; }
   .portfolio .desc-container {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
-        align-items: center;
-    background: yellow; }
+    -ms-flex-direction: columns;
+        flex-direction: columns; }
     .portfolio .desc-container .desc {
       display: -ms-flexbox;
       display: flex;
-      height: auto;
-      background: blue; }
+      -ms-flex-direction: column;
+          flex-direction: column;
+      height: auto; }
+      .portfolio .desc-container .desc h4 {
+        margin: 0;
+        text-decoration: underline;
+        font-family: "Raleway", sans-serif; }
+      .portfolio .desc-container .desc p {
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        line-height: 25px; }
+      .portfolio .desc-container .desc .tech {
+        font-size: 14px; }
+      .portfolio .desc-container .desc .tech-used {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 10px; }
 
 @media (max-width: 860px) {
   .portfolio1 {
-    margin-bottom: 20px !important; } }
+    margin-bottom: 20px !important; }
+  .portfolio2 {
+    margin-bottom: 20px !important; }
+  .portfolio3 {
+    margin-bottom: 20px !important; }
+  .name {
+    margin: auto; } }
 
 .testimonials {
   margin-top: 50px; }
@@ -1096,8 +1206,7 @@ textarea {
       diplay: flex;
       margin-top: 10px;
       width: auto;
-      height: auto;
-      background: red; }
+      height: auto; }
       .testimonials .person1 .title h4 {
         margin: 0;
         padding: 0;
@@ -1114,7 +1223,6 @@ textarea {
         justify-content: center;
     -ms-flex-direction: columns;
         flex-direction: columns;
-    background: pink;
     height: 300px; }
     .testimonials .testimonial1 .text {
       display: -ms-flexbox;
@@ -1123,8 +1231,7 @@ textarea {
           align-self: center;
       font-family: "Raleway", sans-serif;
       width: 100%;
-      height: auto;
-      background: yellow; }
+      height: auto; }
   .testimonials .person2 {
     display: -ms-flexbox;
     display: flex;
@@ -1134,7 +1241,6 @@ textarea {
         justify-content: center;
     margin: auto;
     text-align: center;
-    background: pink;
     width: 300px;
     height: 300px; }
     .testimonials .person2 .headshot {
@@ -1151,8 +1257,7 @@ textarea {
       diplay: flex;
       margin-top: 10px;
       width: auto;
-      height: auto;
-      background: red; }
+      height: auto; }
       .testimonials .person2 .title h4 {
         margin: 0;
         padding: 0;
@@ -1169,7 +1274,6 @@ textarea {
         justify-content: center;
     -ms-flex-direction: columns;
         flex-direction: columns;
-    background: pink;
     height: 300px; }
     .testimonials .testimonial2 .text {
       display: -ms-flexbox;
@@ -1178,8 +1282,60 @@ textarea {
           align-self: center;
       font-family: "Raleway", sans-serif;
       width: 100%;
-      height: auto;
-      background: yellow; }
+      height: auto; }
+
+.person3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  height: 300px; }
+  .person3 .headshot {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    border-radius: 100%;
+    background-image: url("/assets/images/dima_headshot.png");
+    background-size: contain;
+    width: 125px;
+    height: 125px; }
+  .person3 .title {
+    diplay: flex;
+    margin-top: 10px;
+    width: auto;
+    height: auto; }
+    .person3 .title h4 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px; }
+    .person3 .title h5 {
+      font-family: "Raleway", sans-serif;
+      line-height: 20px;
+      margin: 0;
+      padding: 0; }
+
+.testimonial3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: columns;
+      flex-direction: columns;
+  height: 300px; }
+  .testimonial3 .text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: auto; }
 
 @media (max-width: 940px) {
   .testimonials .testimonial1 {
@@ -1196,9 +1352,39 @@ textarea {
   background: #292F36;
   margin-top: 75px;
   color: white; }
+  .contact .social {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 75px;
+    width: 100%; }
+    .contact .social .social-icon-cont {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      height: 100%;
+      width: 250px; }
+      .contact .social .social-icon-cont .twitter {
+        width: 75px;
+        height: 75px;
+        background-image: url("/assets/images/twitter_icon.svg");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .contact .social .social-icon-cont .github {
+        width: 75px;
+        height: 75px;
+        background-image: url("/assets/images/github_icon.svg");
+        background-size: contain;
+        background-repeat: no-repeat; }
   .contact .contact-form {
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     color: white;
     background: #292F36; }
     .contact .contact-form .form-container {
@@ -1258,34 +1444,56 @@ textarea {
         background-color: #49C67D;
         color: white;
         border: 1px solid white; }
-  .contact .contact-text {
+  .contact .text-con {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    -ms-flex-pack: center;
-        justify-content: center; }
-    .contact .contact-text .contact-copy {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    height: 380px; }
+    .contact .text-con .contact-text {
       display: -ms-flexbox;
       display: flex;
-      font-family: "Raleway", sans-serif;
-      color: white; }
-    .contact .contact-text .headshot {
-      margin-top: -100px;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      margin-top: 20px;
+      text-align: center;
+      max-width: 300px; }
+      .contact .text-con .contact-text .contact-copy {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        font-size: 14px;
+        line-height: 25px;
+        font-family: "Raleway", sans-serif;
+        color: white; }
+      .contact .text-con .contact-text .headshot {
+        margin-top: -100px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-image: url(/assets/images/headshot_2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain; }
+    .contact .text-con .social {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-item-align: center;
-          align-self: center;
-      height: 150px;
-      width: 150px;
-      border-radius: 100%;
-      background-image: url(/assets/images/headshot_2.jpg);
-      background-repeat: no-repeat;
-      background-size: contain; }
+      height: 75px;
+      width: 100%;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
 
 @media (max-width: 940px) {
   .contact .contact-text .headshot {
     margin-top: 0px !important; }
+  .contact .text-con {
+    margin: auto; }
   .contact .contact-form {
     width: 100%; }
     .contact .contact-form .form-container {
@@ -1398,6 +1606,14 @@ textarea {
   max-width: 400px;
   margin: 0 10px;
   margin-right: 100px; }
+
+.col-7 {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100px;
+  float: left;
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
 
 .col-title {
   font-family: "Raleway", sans-serif;

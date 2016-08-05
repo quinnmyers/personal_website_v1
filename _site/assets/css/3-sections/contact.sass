@@ -2,9 +2,36 @@
   background: $gunmetal
   margin-top: 75px
   color: white
+  .social
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    height: 75px
+    width: 100%
+    .social-icon-cont
+      display: flex
+      align-self: center
+      justify-content: space-around
+      height: 100%
+      width: 250px
+      .twitter
+        width: 75px
+        height: 75px
+        background:
+          image: url("/assets/images/twitter_icon.svg")
+          size: contain
+          repeat: no-repeat
+
+      .github
+        width: 75px
+        height: 75px
+        background:
+          image: url("/assets/images/github_icon.svg")
+          size: contain
+          repeat: no-repeat
   .contact-form
     margin: auto
-    margin-bottom: 25px
+    margin-bottom: 45px
     color: white
     background: $gunmetal
     .form-container
@@ -59,25 +86,41 @@
           color: white
           border: 1px solid white
 
-  .contact-text
+
+  .text-con
     display: flex
     flex-direction: column
-    justify-content: center
-    .contact-copy
+    justify-content: flex-end
+    height: 380px
+    .contact-text
       display: flex
-      font-family: $mainfont
-      color: white
-    .headshot
-      margin-top: -100px
+      flex-direction: column
+      margin-top: 20px
+      text-align: center
+      max-width: 300px
+      .contact-copy
+        display: flex
+        align-self: center
+        font-size: 14px
+        line-height: 25px
+        font-family: $mainfont
+        color: white
+      .headshot
+        margin-top: -100px
+        display: flex
+        align-self: center
+        height: 100px
+        width: 100px
+        border-radius: 100%
+        background:
+          image: url(/assets/images/headshot_2.jpg)
+          repeat: no-repeat
+          size: contain
+    .social
       display: flex
-      align-self: center
-      height: 150px
-      width: 150px
-      border-radius: 100%
-      background:
-        image: url(/assets/images/headshot_2.jpg)
-        repeat: no-repeat
-        size: contain
+      height: 75px
+      width: 100%
+      align-self: flex-end
 
 
 
@@ -86,6 +129,8 @@
     .contact-text
       .headshot
         margin-top: 0px !important
+    .text-con
+      margin: auto
 
     .contact-form
       width: 100%
