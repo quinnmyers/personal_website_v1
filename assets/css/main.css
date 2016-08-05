@@ -962,8 +962,6 @@ textarea {
         height: 100%;
         width: 100px;
         margin-left: 5px;
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
         transition-duration: 0.3s;
         transition-property: -webkit-transform;
         transition-property: transform;
@@ -1034,13 +1032,9 @@ textarea {
         height: 100%;
         width: 100px;
         margin-left: 7px;
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
         transition-duration: 0.3s;
         transition-property: -webkit-transform;
-        transition-property: transform;
-        -webkit-backface-visibility: hidden;
-                backface-visibility: hidden; }
+        transition-property: transform; }
         .portfolio .portfolio2 .thumbnails2 .two_thumb1:hover,
         .portfolio .portfolio2 .thumbnails2 .two_thumb2:hover,
         .portfolio .portfolio2 .thumbnails2 .two_thumb3:hover,
@@ -1102,8 +1096,6 @@ textarea {
         height: 100%;
         width: 100px;
         margin-left: 5px;
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
         transition-duration: 0.3s;
         transition-property: -webkit-transform;
         transition-property: transform;
@@ -1175,6 +1167,8 @@ textarea {
     margin-bottom: 20px !important; }
   .portfolio3 {
     margin-bottom: 20px !important; }
+  .desc-container.last {
+    padding-bottom: 60px; }
   .name {
     margin: auto; } }
 
