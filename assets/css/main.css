@@ -381,16 +381,16 @@ textarea {
     -ms-flex-pack: justify;
         justify-content: space-between; }
   .home-wrap .header .logo {
-    overflow: hidden;
-    text-indent: 101%;
-    white-space: nowrap;
-    background-image: url(/assets/images/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     height: 120px;
     padding: 10px 0 0 0;
     margin: 0 5px 0 5px; }
+    .home-wrap .header .logo h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 58px;
+      font-family: "Raleway", sans-serif;
+      line-height: 50px;
+      margin-left: 5px; }
   .home-wrap .header .site-nav ul a.is-active {
     color: #49C67D !important;
     text-decoration: underline;
@@ -452,16 +452,23 @@ textarea {
     .home-wrap .header .header-position {
       position: relative; }
     .home-wrap .header .logo {
+      height: auto;
+      width: 300px;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 8px;
+      letter-spacing: 2px;
       width: 170px;
       margin-left: 10px;
       height: 50px;
       margin-top: 5px;
       top: 0;
-      left: 0;
-      background-image: url(/assets/images/small-logo.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center; }
+      left: 0; }
+      .home-wrap .header .logo h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        color: white; }
     .home-wrap .header .site-nav,
     .home-wrap .header .bottom {
       display: none;
@@ -533,7 +540,7 @@ textarea {
 
 @media (max-width: 860px) {
   .jumbotron {
-    margin-top: 65px; } }
+    margin-top: 63px; } }
 
 @media (max-width: 500px) {
   .jumbotron {
@@ -919,6 +926,10 @@ textarea {
     font-size: 18px;
     font-family: "Raleway", sans-serif; }
 
+@media (max-width: 680px) {
+  .nt-container {
+    margin: auto; } }
+
 .portfolio {
   margin-top: 75px;
   background: #bdc3c7; }
@@ -961,18 +972,7 @@ textarea {
         display: flex;
         height: 100%;
         width: 100px;
-        margin-left: 5px;
-        transition-duration: 0.3s;
-        transition-property: -webkit-transform;
-        transition-property: transform;
-        -webkit-backface-visibility: hidden;
-                backface-visibility: hidden; }
-        .portfolio .portfolio1 .thumbnails1 .one_thumb1:hover,
-        .portfolio .portfolio1 .thumbnails1 .one_thumb2:hover,
-        .portfolio .portfolio1 .thumbnails1 .one_thumb3:hover,
-        .portfolio .portfolio1 .thumbnails1 .one_thumb4:hover {
-          -webkit-transform: scale(1.1);
-                  transform: scale(1.1); }
+        margin-left: 5px; }
       .portfolio .portfolio1 .thumbnails1 .one_thumb1 {
         background-image: url("/assets/images/robert_site/landing@2x.png");
         background-size: contain;
@@ -1031,16 +1031,7 @@ textarea {
         display: flex;
         height: 100%;
         width: 100px;
-        margin-left: 7px;
-        transition-duration: 0.3s;
-        transition-property: -webkit-transform;
-        transition-property: transform; }
-        .portfolio .portfolio2 .thumbnails2 .two_thumb1:hover,
-        .portfolio .portfolio2 .thumbnails2 .two_thumb2:hover,
-        .portfolio .portfolio2 .thumbnails2 .two_thumb3:hover,
-        .portfolio .portfolio2 .thumbnails2 .two_thumb4:hover {
-          -webkit-transform: scale(1.1);
-                  transform: scale(1.1); }
+        margin-left: 5px; }
       .portfolio .portfolio2 .thumbnails2 .two_thumb1 {
         background-image: url("/assets/images/siq_site/siqwholesale.png");
         background-size: contain;
@@ -1095,18 +1086,7 @@ textarea {
         display: flex;
         height: 100%;
         width: 100px;
-        margin-left: 5px;
-        transition-duration: 0.3s;
-        transition-property: -webkit-transform;
-        transition-property: transform;
-        -webkit-backface-visibility: hidden;
-                backface-visibility: hidden; }
-        .portfolio .portfolio3 .thumbnails3 .three_thumb1:hover,
-        .portfolio .portfolio3 .thumbnails3 .three_thumb2:hover,
-        .portfolio .portfolio3 .thumbnails3 .three_thumb3:hover,
-        .portfolio .portfolio3 .thumbnails3 .three_thumb4:hover {
-          -webkit-transform: scale(1.1);
-                  transform: scale(1.1); }
+        margin-left: 5px; }
       .portfolio .portfolio3 .thumbnails3 .three_thumb1 {
         background-image: url("/assets/images/bh_site/bhfeatured.png");
         background-size: contain;
